@@ -64,7 +64,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.odiszapc</groupId>
+            <groupId>com.dk.parser</groupId>
             <artifactId>nginxparser</artifactId>
             <version>1.0.0</version>
         </dependency>
