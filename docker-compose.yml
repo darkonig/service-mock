@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  router:
+    image: dk/kotlin-demo:0.0.1-SNAPSHOT
+#    build: .
+    ports:
+      - "8090:8081"
+    environment:
+      - DIR=/volume/etc
+
