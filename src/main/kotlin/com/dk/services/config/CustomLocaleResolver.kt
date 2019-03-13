@@ -1,18 +1,10 @@
 package com.dk.services.config
 
-import com.dk.services.messages.Message
-import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
 import org.springframework.context.i18n.LocaleContext
-import org.springframework.context.support.ResourceBundleMessageSource
-import java.util.*
-import java.util.Locale
-import org.springframework.web.reactive.accept.RequestedContentTypeResolverBuilder
+import org.springframework.context.i18n.SimpleLocaleContext
 import org.springframework.web.server.ServerWebExchange
 import org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolver
-import org.springframework.web.server.i18n.FixedLocaleContextResolver
-import org.springframework.web.server.i18n.LocaleContextResolver
-import org.springframework.context.i18n.SimpleLocaleContext
+import java.util.Locale
 
 
 open class CustomLocaleResolver: AcceptHeaderLocaleContextResolver() {

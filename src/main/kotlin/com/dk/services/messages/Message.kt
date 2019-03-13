@@ -1,12 +1,9 @@
 package com.dk.services.messages
 
-import com.dk.services.util.SingletonHolder
 import org.springframework.context.MessageSource
-import org.springframework.stereotype.Component
 import org.springframework.context.i18n.LocaleContextHolder
-import org.springframework.context.support.ResourceBundleMessageSource
+import org.springframework.stereotype.Component
 import java.util.*
-import javax.naming.Context
 
 
 @Component

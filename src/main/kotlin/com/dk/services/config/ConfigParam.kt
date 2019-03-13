@@ -1,6 +1,6 @@
 package com.dk.services.config
 
-import com.github.odiszapc.nginxparser.NgxIfBlock
+import com.dk.parser.nginxparser.NgxIfBlock
 import org.springframework.http.server.reactive.ServerHttpRequest
 
 interface CfgParam<T> {

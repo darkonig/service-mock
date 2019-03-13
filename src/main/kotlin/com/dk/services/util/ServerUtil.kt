@@ -1,11 +1,10 @@
 package com.dk.services.util
 
+import com.dk.parser.nginxparser.NgxBlock
+import com.dk.parser.nginxparser.NgxConfig
+import com.dk.parser.nginxparser.NgxIfBlock
+import com.dk.parser.nginxparser.NgxParam
 import com.dk.services.config.*
-import com.example.kotlindemo.config.*
-import com.github.odiszapc.nginxparser.NgxBlock
-import com.github.odiszapc.nginxparser.NgxConfig
-import com.github.odiszapc.nginxparser.NgxIfBlock
-import com.github.odiszapc.nginxparser.NgxParam
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.server.reactive.ServerHttpRequest
 import org.springframework.stereotype.Component
